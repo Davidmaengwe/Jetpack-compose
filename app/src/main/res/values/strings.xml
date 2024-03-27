@@ -2,4 +2,17 @@
     <string name="app_name">Phone</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_lottie">LottieActivity</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_product">productActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_funiture">FunitureActivity</string>
+    <string name="title_activity_chairs">ChairsActivity</string>
+    <string name="title_activity_tools">ToolsActivity</string>
 </resources>

@@ -12,25 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Phone"
         tools:targetApi="31">
+
         <activity
-            android:name=".IntentActivit"
+            android:name=".ChairsActivity"
             android:exported="false"
-            android:label="@string/title_activity_intent"
+            android:label="@string/title_activity_chairs"
             android:theme="@style/Theme.Phone" />
         <activity
-            android:name=".IntentActivity"
+            android:name=".FunitureActivity"
             android:exported="false"
-            android:label="@string/title_activity_intent"
+            android:label="@string/title_activity_funiture"
             android:theme="@style/Theme.Phone" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".PayActivity"
             android:exported="false"
-            android:label="@string/title_activity_main2"
+            android:label="@string/title_activity_pay"
             android:theme="@style/Theme.Phone" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CartActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".productActivity"
+            android:exported="false"
+            android:label="@string/title_activity_product"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.SplashscreenActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="Phone"
             android:theme="@style/Theme.Phone">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,6 +49,47 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.theme.LottieActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.ListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.ExploreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.DestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.FormActivity"
+            android:exported="false"
+            android:label="@string/title_activity_form"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intent"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.LayoutActivity"
+            android:exported="false"
+            android:label="LayoutActivity"
+            android:theme="@style/Theme.Phone" />
+        <activity
+            android:name=".ui.theme.MainActivity"
+            android:exported="false"
+            android:label="MainActivity"
+            android:theme="@style/Theme.Phone"
+            tools:ignore="IntentFilterExportedReceiver" />
     </application>
 
 </manifest>
